@@ -1,6 +1,6 @@
 #webhook项目自动构建配置
 #!/bin/bash
-WORK_PATH='/usr/projects/cha-webhook'
+WORK_PATH='/usr/projects/cha/cha-webhook'
 cd $WORK_PATH
 echo "清理代码"
 git reset --hard origin/master

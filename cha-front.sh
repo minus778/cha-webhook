@@ -1,6 +1,6 @@
 #前端项目自动构建配置
 #!/bin/bash
-WORK_PATH='/usr/projects/cha-vue'
+WORK_PATH='/usr/projects/cha/cha-vue'
 cd $WORK_PATH
 echo "清理代码"
 git reset --hard origin/master
