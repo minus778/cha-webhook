@@ -7,10 +7,6 @@ git reset --hard origin/master
 git clean -f
 echo "拉取最新代码"
 git pull origin master
-echo "下载依赖包"
-npm install
-echo "打包最新代码"
-npm run build
 echo "开始构建镜像"
 docker build -t cha-vue:1.0.0 .
 echo "删除旧容器"
