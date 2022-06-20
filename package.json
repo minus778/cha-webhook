@@ -4,8 +4,8 @@
   "description": "",
   "main": "webhook.js",
   "scripts": {
-    "start": "pm2 start ./webhook.js --watch --name='vue-webhook'",
-    "stop": "pm2 stop vue-webhook"
+    "start": "pm2 start ./webhook.js --watch --name='cha-webhook'",
+    "stop": "pm2 stop cha-webhook"
   },
   "keywords": [],
   "author": "",
