@@ -7,6 +7,8 @@ git reset --hard origin/master
 git clean -f
 echo "拉取最新代码"
 git pull origin master
+echo "下载项目依赖"
+cnpm install
 echo "打包项目"
 npm run build
 echo "开始构建镜像"
