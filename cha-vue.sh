@@ -19,4 +19,4 @@ docker rmi cha-vue:1.0.0
 echo "开始构建新镜像"
 docker build -t cha-vue:1.0.0 .
 echo "启动新容器"
-docker container run -p 81:80 -d --name cha-vue-container cha-vue:1.0.0
+docker container run -p 81:80 -dit --name cha-vue-container cha-vue:1.0.0
