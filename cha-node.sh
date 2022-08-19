@@ -7,8 +7,6 @@ git reset --hard origin/master
 git clean -f
 echo "拉取最新代码"
 git pull origin master
-echo "下载项目依赖"
-cnpm install
 echo "删除旧容器"
 docker stop cha-node-container
 docker rm cha-node-container
